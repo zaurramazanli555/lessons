@@ -1,0 +1,5 @@
+Proyekti klonlamaq ucun:
+git clone {reponun linki}
+
+Lokal ile remote arasindaki ferqi gormek ucun:
+git status
