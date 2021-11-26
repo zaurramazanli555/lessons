@@ -3,3 +3,18 @@ git clone {reponun linki}
 
 Lokal ile remote arasindaki ferqi gormek ucun:
 git status
+
+(Lokalda her hansisa deyisiklik etdikden sonra)
+git add . (git add all commandi butun deyisiklikleri elave edir)
+
+(ve ya tek bir Test papkasi yaratmisiqsa)
+git add Test
+
+Elave olunan deyisiklikleri commitlemek ucun:
+git commit -m "Commit text here"
+
+Commit edilen deyisikliyi remote branch a gondermek ucun:
+git push
+
+Repository'de olub, senin lokalinda olmayan deyisiklikleri lokala cekmek ucun:
+git pull
