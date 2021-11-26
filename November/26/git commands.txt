@@ -27,3 +27,6 @@ git branch -v
 
 Butun branchlari gormek ucun:
 git branch -av
+
+Branch yaratmaq ucun:
+git branch NewBranchName
