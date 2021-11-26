@@ -18,3 +18,12 @@ git push
 
 Repository'de olub, senin lokalinda olmayan deyisiklikleri lokala cekmek ucun:
 git pull
+
+Branchdaki commitleri ve detallarini gormek ucun:
+git log
+
+Branchi gormek ucun:
+git branch -v
+
+Butun branchlari gormek ucun:
+git branch -av
