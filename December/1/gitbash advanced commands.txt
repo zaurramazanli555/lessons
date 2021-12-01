@@ -1,0 +1,32 @@
+git config -global user.name
+git config -global user.email
+git config -help (--help to view in browser as html file)
+git --version (to see git version)
+
+echo > textWithoutcontent.txt (create empty file)
+echo Salam > textWithContent.txt (create file with content)
+echo Sagol >> textWithContent.txt (add text to file)
+dir
+ls (list in folder)
+ls -a (list all in folder (also hidden folders and files))
+clear
+rm textWithContent.txt
+mkdir Test (create folder Test)
+rm -rf Test (remove folder)
+cd Test (enter folder)
+cd .. (go back)
+
+cp source/test.txt   destination/ (copy file from first path to second)
+mv source/test.txt   destination/ (move file from first path to second)
+
+cp -r source/targetFolder   destination (copy folder with including files)
+mv source/targetFolder   destination movefolder with including files)
+
+
+
+
+
+
+
+
+
