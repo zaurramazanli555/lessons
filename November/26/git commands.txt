@@ -23,6 +23,9 @@ Branchdaki commitleri ve detallarini gormek ucun:
 git log
 
 Branchi gormek ucun:
+git branch
+
+Branchi detalli gormek ucun:
 git branch -v
 
 Butun branchlari gormek ucun:
@@ -30,3 +33,20 @@ git branch -av
 
 Branch yaratmaq ucun:
 git branch NewBranchName
+
+Branchi yaradib hemin brancha kecmek ucun:
+git checkout -b NewBranchName
+
+Localdaki branchi remote a atmaq ucun:
+git push --set-upstream origin NewBranchName
+
+Basqa versiya:
+git branch NewBranch
+git checkout NewBranch
+git push -u origin NewBranch
+
+
+
+
+
+
