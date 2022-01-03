@@ -1,7 +1,0 @@
-C:\Users\Education\Desktop\VariablesAndDataTypesPart2\VariablesAndDataTypesPart2\bin\Debug\VariablesAndDataTypesPart2.exe.config
-C:\Users\Education\Desktop\VariablesAndDataTypesPart2\VariablesAndDataTypesPart2\bin\Debug\VariablesAndDataTypesPart2.exe
-C:\Users\Education\Desktop\VariablesAndDataTypesPart2\VariablesAndDataTypesPart2\bin\Debug\VariablesAndDataTypesPart2.pdb
-C:\Users\Education\Desktop\VariablesAndDataTypesPart2\VariablesAndDataTypesPart2\obj\Debug\VariablesAndDataTypesPart2.csprojAssemblyReference.cache
-C:\Users\Education\Desktop\VariablesAndDataTypesPart2\VariablesAndDataTypesPart2\obj\Debug\VariablesAndDataTypesPart2.csproj.CoreCompileInputs.cache
-C:\Users\Education\Desktop\VariablesAndDataTypesPart2\VariablesAndDataTypesPart2\obj\Debug\VariablesAndDataTypesPart2.exe
-C:\Users\Education\Desktop\VariablesAndDataTypesPart2\VariablesAndDataTypesPart2\obj\Debug\VariablesAndDataTypesPart2.pdb
