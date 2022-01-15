@@ -17,16 +17,16 @@ namespace HomeworkStudentMethods
         {
             return Exam1 + Exam2 + Exam3;
         }
-        public  bool RateAverage()
+        private  bool RateAverage()
         {
             decimal sumexam = SumExam()/3;
             if (sumexam > 45) return true;
-            else return false;
+            return false;
         }
         public string CalcAverage(Student student)
         {
 
-            if(student.RateAverage()) return "Tebrikler " +student.Name+" "+student.Surname+".Siz imtahandan ugurla kecdiniz";
+            if (student.RateAverage()) return "Tebrikler " + student.Name + " " + student.Surname + ".Siz imtahandan ugurla kecdiniz";
             return "Teesufler olsun " + student.Name + " " + student.Surname + ".Siz imtahandan kesildiniz";
         }
         public string CalcAverage()
