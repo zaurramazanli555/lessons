@@ -43,6 +43,7 @@ namespace HomeworkDocument
             while (programexit=="continue")
             {
                 Console.WriteLine("Vesiqe nomresinin ilk nece reqeminin gorsenmesini isteyirsiniz");
+                
                 int firstnumber =int.Parse(Console.ReadLine());
                 Console.WriteLine(dc.DocumentSerial+" "+ dc.SHowDocumentNumber(firstnumber)); 
             }
