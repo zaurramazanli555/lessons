@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CASHBOOK.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SERVER" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\mssqlserver8</Value>
+    </Setting>
+    <Setting Name="DATABASE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CASHBOOKDB</Value>
+    </Setting>
+    <Setting Name="FONT" Type="System.Drawing.Font" Scope="Application">
+      <Value Profile="(Default)">Tahoma, 9.75pt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
