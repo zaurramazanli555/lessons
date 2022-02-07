@@ -16,7 +16,7 @@ namespace AppPayment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCreateAnalitika());
+            Application.Run(new Form1());
         }
     }
 }

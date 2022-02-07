@@ -24,6 +24,7 @@ namespace AppPayment.DBModel
         public DbSet<Payment> Payments { get; set; }
         public DbSet<DocumentPayment> DocumentPayments { get; set; }
         public DbSet<FileClass> Files { get; set; }
+        public DbSet<Stage> Stages { get; set; }
 
     }
 }

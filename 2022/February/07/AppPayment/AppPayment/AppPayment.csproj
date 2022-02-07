@@ -76,6 +76,18 @@
     <Compile Include="frmCreateAnalitika.Designer.cs">
       <DependentUpon>frmCreateAnalitika.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202202041043338_Intilaze Moe.cs" />
     <Compile Include="Migrations\202202041043338_Intilaze Moe.designer.cs">
       <DependentUpon>202202041043338_Intilaze Moe.cs</DependentUpon>
@@ -88,6 +100,26 @@
     <Compile Include="Migrations\202202041127352_Documents,paymnts,files.designer.cs">
       <DependentUpon>202202041127352_Documents,paymnts,files.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202070611121_Vendor add column.cs" />
+    <Compile Include="Migrations\202202070611121_Vendor add column.designer.cs">
+      <DependentUpon>202202070611121_Vendor add column.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202070615128_Name 50 legth.cs" />
+    <Compile Include="Migrations\202202070615128_Name 50 legth.designer.cs">
+      <DependentUpon>202202070615128_Name 50 legth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202070626032_User add username.cs" />
+    <Compile Include="Migrations\202202070626032_User add username.designer.cs">
+      <DependentUpon>202202070626032_User add username.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202071107302_Chagd Classes.cs" />
+    <Compile Include="Migrations\202202071107302_Chagd Classes.designer.cs">
+      <DependentUpon>202202071107302_Chagd Classes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202071314121_Add stage clas.cs" />
+    <Compile Include="Migrations\202202071314121_Add stage clas.designer.cs">
+      <DependentUpon>202202071314121_Add stage clas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelCLass\Company.cs" />
     <Compile Include="ModelCLass\Department.cs" />
@@ -97,6 +129,7 @@
     <Compile Include="ModelCLass\FileClass.cs" />
     <Compile Include="ModelCLass\Payment.cs" />
     <Compile Include="ModelCLass\PaymentStatus.cs" />
+    <Compile Include="ModelCLass\Stage.cs" />
     <Compile Include="ModelCLass\User.cs" />
     <Compile Include="ModelCLass\Vendor.cs" />
     <Compile Include="Program.cs" />
@@ -107,6 +140,12 @@
     <EmbeddedResource Include="frmCreateAnalitika.resx">
       <DependentUpon>frmCreateAnalitika.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202041043338_Intilaze Moe.resx">
       <DependentUpon>202202041043338_Intilaze Moe.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +155,22 @@
     <EmbeddedResource Include="Migrations\202202041127352_Documents,paymnts,files.resx">
       <DependentUpon>202202041127352_Documents,paymnts,files.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202070611121_Vendor add column.resx">
+      <DependentUpon>202202070611121_Vendor add column.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202070615128_Name 50 legth.resx">
+      <DependentUpon>202202070615128_Name 50 legth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202070626032_User add username.resx">
+      <DependentUpon>202202070626032_User add username.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202071107302_Chagd Classes.resx">
+      <DependentUpon>202202071107302_Chagd Classes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202071314121_Add stage clas.resx">
+      <DependentUpon>202202071314121_Add stage clas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
