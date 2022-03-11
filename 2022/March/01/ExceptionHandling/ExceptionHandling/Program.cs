@@ -149,31 +149,31 @@ namespace ExceptionHandling
             #endregion
 
             #region Finally
-            //try
-            //{
-            //    Console.WriteLine("Connected");
-            //    Console.WriteLine("Database connection is open...");
-            //    Console.WriteLine("Database'den Id deyeri nece olan user'i goturmek isteyirsiniz?");
-            //    var userInput = int.Parse(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("Connected");
+                Console.WriteLine("Database connection is open...");
+                Console.WriteLine("Database'den Id deyeri nece olan user'i goturmek isteyirsiniz?");
+                var userInput = int.Parse(Console.ReadLine());
 
-            //    var connection = "Closing connection here will not work!";
-            //}
-            //catch (FormatException ex)
-            //{
-            //    Console.WriteLine("Daxil edilen deyer reqem deyil!");
-            //    Console.WriteLine("Write to log: " + ex.Message);
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine("Her hansisa bir xeta bas verdi!");
-            //    Console.WriteLine("Write to log: " + ex.Message);
-            //}
-            //finally
-            //{
-            //    Console.WriteLine("test");
-            //}
+                var connection = "Closing connection here will not work!";
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Daxil edilen deyer reqem deyil!");
+                Console.WriteLine("Write to log: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Her hansisa bir xeta bas verdi!");
+                Console.WriteLine("Write to log: " + ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("test");
+            }
 
-            //var connection1 = "Closing connection here will not work!";
+            var connection1 = "Closing connection here will not work!";
             #endregion
 
             #region Custom Exceptions
